@@ -29,7 +29,7 @@ public class CheckGuest {
 
 		//ciclo per determinare se l'utente è nella lista o meno
 		
-		/* ciclo for
+		/* ciclo for sotto commento
         for (int i = 0; i < guests.length; i++) {
         	if (name.toLowerCase().equals(guests[i].toLowerCase())) {
         		invited = true;
@@ -47,7 +47,7 @@ public class CheckGuest {
 			i++;
 		}
 		
-		//controllo del risultato
+		//condizione di controllo del risultato
 		if (!invited) {
 	      System.out.println("Non sei nella lista, vai a casa brutto poveraccio!");
 	    } else {
